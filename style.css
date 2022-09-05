@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    background-color: rgb(97, 177, 209);
+    color: rgb(44, 50, 54);
+    height: auto;
+    max-width: 100%;
+    padding: 1rem .5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+   
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.item {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+.pages-container {
+    text-align: center;
+}
+img {
+    max-height: 100vh;
+    width: 100%;
+}
+
+.active {
+    color: rgb(246, 249, 252);
+}
